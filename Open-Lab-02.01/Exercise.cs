@@ -6,12 +6,21 @@ namespace Open_Lab_02._01
     {
         public double[] Create5Numbers()
         {
-            throw new NotImplementedException();
+            double[] num = new double[5]; 
+            Random random = new Random();
+
+            for (int i = 0; i< num.Length; i++)
+            { 
+                num[i] = random.NextDouble();
+            }
+
+            return num;
+
         }
 
         public double GetSecond(double[] numbers)
         {
-            throw new NotImplementedException();
+            return numbers[1];
         }
     }
 }
