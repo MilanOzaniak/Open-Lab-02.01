@@ -22,5 +22,6 @@ namespace Open_Lab_02._01
         {
             return numbers[1];
         }
-    }
+
+    } 
 }
